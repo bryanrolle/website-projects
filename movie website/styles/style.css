@@ -791,3 +791,64 @@ img {
     font-size: 15px;
     cursor: pointer;
 }
+
+
+/* Mobile View */
+@media only screen and (max-width: 431px) {
+    
+    .shows .tv_show .box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+       
+    }
+
+     
+    .upcoming .movie_box .box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+       
+    }
+
+     
+    .second .latest .box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+       
+    }
+
+    .newsletter .news_card {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    section nav {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 5% 8px 5%;
+        margin-bottom: 20px;
+        background: #171717;
+        flex-direction: column;
+    }
+
+    .second .latest h1 {
+        font-size: 20px;
+        color: #fff;
+        margin-bottom: 20px;
+        padding-top: 80px;
+    }
+   
+}
+    
+
