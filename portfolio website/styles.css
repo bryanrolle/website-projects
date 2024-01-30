@@ -745,7 +745,7 @@ main {
 
 #portfolio .port-row .port-item:hover .port-info h4 {
     color: var(--bgColor);
-    font-size: 25px;
+    font-size: 15px;
     font-weight: 600;
 }
 
@@ -754,7 +754,7 @@ main {
     font-size: 14px;
 }
 
-#portfolio .port-row .port-item:hover .port-info a {
+#portfolio .port-row .port-item .port-info a {
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
@@ -767,7 +767,7 @@ main {
     transition: 0.4s;
 }
 
-#portfolio .port-row .port-item:hover .port-info a:hover {
+#portfolio .port-row .port-item .port-info a:hover {
     background-color: var(--sideBGColor);
     color: var(--bgColor);
 }
@@ -776,23 +776,19 @@ main {
 
 @media only screen and (max-width: 650px) {
     #portfolio {
-        padding: 70px 30px;
+        padding: 50px 10px;
     }
     
     #portfolio .port-row {
-        margin-top: 50px;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 35px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 15px;
     }
 }
 
 @media only screen and (max-width: 350px) { 
     #portfolio .port-row {
-        margin-top: 50px;
-        display: grid;
         grid-template-columns: repeat(1, 1fr);
-        grid-gap: 35px;
+        grid-gap: 15px;
     }
 }
 
